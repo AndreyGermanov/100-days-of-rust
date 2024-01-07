@@ -15,7 +15,7 @@ fn get_num_pairs(line: &str) -> u32 {
 }
 
 #[test]
-fn test_get_num_chars() {
+fn test_get_num_pairs() {
     assert_eq!(get_num_pairs(""), 0);
     assert_eq!(get_num_pairs("A"), 0);
     assert_eq!(get_num_pairs("AA"), 1);

@@ -1,4 +1,3 @@
-
 fn merge_sorted_arrays(nums1: &[i32], nums2: &[i32], m:usize, n:usize) -> Vec<i32> {
     if m < n || n == 0 {
         return Vec::from(&nums1[0..m]);

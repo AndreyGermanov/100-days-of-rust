@@ -7,5 +7,5 @@ fn bst_num(n: i32) -> i32 {
 #[test]
 fn test_bst_num() {
     assert_eq!(bst_num(3), 5);
-    assert_eq!(bst_num(1), 1)
+    assert_eq!(bst_num(1), 1);
 }

@@ -26,4 +26,5 @@ fn test_can_fit() {
     assert_eq!(can_fit(&mut vec![2, 7, 1, 3, 3, 4, 7, 4, 1, 8, 2],4), false);
     assert_eq!(can_fit(&mut vec![2, 1, 2, 5, 4, 3, 6, 1, 1, 19, 3, 2],4), false);
     assert_eq!(can_fit(&mut vec![9, 9, 9],2), false);
+    assert_eq!(can_fit(&mut vec![15],1), false);
 }

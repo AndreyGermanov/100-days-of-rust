@@ -1,8 +1,7 @@
 use std::collections::HashMap;
-
 fn is_anagram(s: &str, t: &str) -> bool {
     let mut chars: HashMap<char, i32> = HashMap::new();
-    s.to_lowercase().chars().filter(|ch| (*ch as u32) > 96 && (*ch as u32) < 123). for_each(|ch| {
+    s.to_lowercase().chars().filter(|ch| (*ch as u32) > 96 && (*ch as u32) < 123).for_each(|ch| {
         if chars.contains_key(&ch) {
             *chars.get_mut(&ch).unwrap() += 1;
         } else {

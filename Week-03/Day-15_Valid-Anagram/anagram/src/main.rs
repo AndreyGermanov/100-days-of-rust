@@ -13,7 +13,7 @@ fn is_anagram(s: &str, t: &str) -> bool {
             *chars.get_mut( &ch).unwrap() -= 1;
         }
     });
-    for (ch, count) in chars {
+    for (_, count) in chars {
         if count != 0 {
             return false;
         }

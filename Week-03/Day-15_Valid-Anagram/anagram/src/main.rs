@@ -2,7 +2,7 @@ use std::collections::HashMap;
 
 fn is_anagram(s: &str, t: &str) -> bool {
     let mut chars: HashMap<char, i32> = HashMap::new();
-    s.to_lowercase().chars().for_each(|ch| {
+    s.to_lowercase().chars().filter(|ch| (*ch as u32) > 96 && (*ch as u32) < 123). for_each(|ch| {
         if chars.contains_key(&ch) {
             *chars.get_mut(&ch).unwrap() += 1;
         } else {
@@ -30,7 +30,7 @@ fn test_is_anagram() {
     assert_eq!(is_anagram("Church of Scientology","rich-chosen goofy cult"), true);
     assert_eq!(is_anagram("McDonald's restaurants","Uncle Sam's standard rot"), true);
     assert_eq!(is_anagram("coronavirus","carnivorous"), true);
-    assert_eq!(is_anagram("She Sells Sanctuary","Santa; shy, less crue"), true);
+    assert_eq!(is_anagram("She Sells Sanctuary","Santa; shy, less cruel"), true);
     assert_eq!(is_anagram("She Sells Sanctuary","Satan; cruel, less shy"), true);
     assert_eq!(is_anagram("evil","vile"), true);
     assert_eq!(is_anagram("a gentleman","elegant man"), true);

@@ -1,12 +1,5 @@
 fn unique_paths(m: usize, n: usize) -> usize {
-    let mut result = vec![0; n];
-    result[0] = 1;
-    for _ in 0..m {
-        for col in 1..n {
-            result[col] += result[col - 1];
-        }
-    }
-    result[n-1]
+    (n..m + n - 1).fold(1, |accum, item| accum * item / (item - n + 1))
 }
 
 #[test]

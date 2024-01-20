@@ -38,6 +38,9 @@ fn index() -> content::RawHtml<String> {
 fn generate(urls: Option<Form<URLS>>, state: &State<AppState>) -> Result<String,Status> {
     let urls = urls.unwrap();
     let long_url = urls.long_url.clone();
+    if long_url.len() > 200 {
+        return Err(Status::PayloadTooLarge);
+    }
     if !long_url.to_uppercase().starts_with("HTTP://") &&
         !long_url.to_uppercase().starts_with("HTTPS://") {
             return Err(Status::BadRequest);

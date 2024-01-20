@@ -9,7 +9,6 @@ use rocket::response::Redirect;
 
 struct AppState {
     database: Mutex<HashMap<String, String>>
-
 }
 
 #[derive(FromForm)]

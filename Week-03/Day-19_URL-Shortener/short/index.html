@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>URL Shortener</title>
+    <style>
+        html {
+            font-family: Arial;
+            font-size: 14px;
+        }
+
+        body {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            background-color: teal;
+            margin: 20px 0 0;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            background-color: white;
+            border-radius: 20px;
+            padding: 20px;
+            gap: 10px;
+        }
+
+        h1 {
+            text-transform: uppercase;
+            font-size: 18px;
+            letter-spacing: 2px;
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        input {
+            outline: none;
+            padding: 10px;
+            border: 1px solid gray;
+            border-radius: 30px;
+        }
+
+        label {
+            text-align: left;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+
+        fieldset {
+            border: none;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            padding: 0;
+        }
+
+        button {
+            background-color: #0088ff;
+            color: white;
+            border-radius: 10px;
+            border: 0;
+            padding: 10px 30px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .result {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .short_url_title {
+            font-weight: bold;
+            color: #006600;
+            font-size: 14px;
+            white-space: nowrap;
+        }
+
+        .short_url {
+            width: 100%;
+            padding: 5px 10px;
+            background-color: black;
+            border-radius: 10px;
+            color: yellow;
+        }
+
+
+        @media (max-width: 420px) {
+            main {
+                width: 100%;
+                border-radius: 0;
+            }
+            body {
+                margin-top: 0;
+                height: 100%;
+                background-color: white;
+            }
+            html {
+                height: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>URL Shortener</h1>
+        <form>
+            <fieldset>
+                <label for="long_url">Long URL</label>
+                <input name="long_url" id="long_url" placeholder="https://">
+            </fieldset>
+            <fieldset>
+                <label for="short_url">Short URL (optional)</label>
+                <input name="short_url" id="short_url" placeholder="my_site">
+            </fieldset>
+            <button type="button">Submit</button>
+        </form>
+        <div class="result" style="display: none">
+            <span class="short_url_title">Your short URL: </span>
+            <div class="short_url">fsdfdsfds</div>
+        </div>
+    </main>
+    <script>
+        document.querySelector("button").addEventListener("click", async() => {
+            const data = new FormData();
+            const long_url = document.getElementById("long_url").value.toString().trim();
+            if (!long_url) {
+                alert("Please, specify URL");
+                return;
+            }
+            data.append("long_url",long_url);
+            const short_url = document.getElementById("short_url").value.toString().trim();
+            if (short_url) {
+                data.append("short_url", short_url);
+            }
+            const response = await fetch("/generate", {
+                method: "POST",
+                body: data
+            });
+            if (response.status !== 200) {
+                if (response.status === 409) {
+                    alert("Provided short URL already registered!");
+                } else {
+                    alert("Incorrect URL!");
+                }
+                return;
+            }
+            document.querySelector(".short_url").innerText = await response.text();;
+            document.querySelector(".result").style.display = "block";
+        })
+    </script>
+</body>
+</html>

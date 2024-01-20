@@ -42,6 +42,9 @@ fn generate(urls: Option<Form<URLS>>, state: &State<AppState>) -> Result<String,
         !long_url.to_uppercase().starts_with("HTTPS://") {
             return Err(Status::BadRequest);
     }
+    if state.database.lock().unwrap().iter().find(|(key,value)| *value == &long_url) != None {
+        return Err(Status::Conflict)
+    }
     let mut short_url = urls.short_url.clone().unwrap_or("".to_string());
     if short_url.len() == 0 {
         short_url = generate_short_for_url(&state.database.lock().unwrap(), &urls.long_url);
@@ -72,7 +75,7 @@ fn generate_short_for_url(database: &HashMap<String,String>,url: &str) -> String
     let mut code = String::new();
     for _ in 0..8 {
         let num = rand::thread_rng().gen_range(65..123);
-        if num == 96 {
+        if num >= 91 && num <=96 {
             return generate_short_for_url(database, url);
         }
         let ch = std::char::from_u32(num).unwrap();

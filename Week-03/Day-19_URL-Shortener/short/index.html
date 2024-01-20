@@ -90,7 +90,6 @@
         }
 
         .short_url {
-            width: 100%;
             padding: 5px 10px;
             background-color: black;
             border-radius: 10px;
@@ -152,7 +151,7 @@
             });
             if (response.status !== 200) {
                 if (response.status === 409) {
-                    alert("Provided short URL already registered!");
+                    alert("Provided URL already registered!");
                 } else {
                     alert("Incorrect URL!");
                 }

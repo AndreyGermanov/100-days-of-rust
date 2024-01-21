@@ -92,8 +92,8 @@ fn calc_distance(point1:(f64, f64),point2:(f64,f64)) -> f64 {
     let point2_lat = deg_to_rad(point2.0);
     let delta_lat = deg_to_rad(point1.0-point2.0);
     let delta_lng = deg_to_rad(point1.1-point2.1);
-    let central_angle_inner = (delta_lat / 2.0).sin().powi(2) + point1_lat.cos()
-        * point2_lat.cos() * (delta_lng / 2.0).sin().powi(2);
+    let central_angle_inner = (delta_lat / 2.0).sin().powi(2) + point1_lat.cos() *
+        point2_lat.cos() * (delta_lng / 2.0).sin().powi(2);
     let central_angle = 2.0 * central_angle_inner.sqrt().asin();
     return (earth_radius_kilometer * central_angle).abs();
 

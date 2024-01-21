@@ -45,7 +45,7 @@ fn generate(urls: Option<Form<URLS>>, state: &State<AppState>) -> Result<String,
         !long_url.to_uppercase().starts_with("HTTPS://") {
             return Err(Status::BadRequest);
     }
-    if state.database.lock().unwrap().iter().find(|(key,value)| *value == &long_url) != None {
+    if state.database.lock().unwrap().iter().find(|(_,value)| *value == &long_url) != None {
         return Err(Status::Conflict);
     }
     let mut short_url = urls.short_url.clone().unwrap_or("".to_string());

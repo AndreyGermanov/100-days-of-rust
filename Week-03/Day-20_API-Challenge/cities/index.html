@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>City Finder</title>
+    <style>
+        html {
+            width: 100%;
+            height: 100%;
+            font-family: Arial;
+            font-size: 16px;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            padding: 0;
+            margin: 0;
+            background: white;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(green, black, green);
+        }
+
+        main {
+            display: inline-block;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            text-align: left;
+            gap: 10px;
+            background-color: rgba(255,255,255,0.1);
+            padding: 20px;
+        }
+        h1 {
+            color: #ffffaa;
+            margin:0;
+            padding: 0 0 15px;
+        }
+        form {
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        fieldset {
+            border: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+        }
+
+        .field {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .field > div {
+            display: flex;
+            flex-direction: column;
+            position:relative;
+        }
+
+        label {
+            color: white;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+
+        input {
+            border-radius: 5px;
+            padding: 10px;
+            border: 3px solid green;
+            outline: none;
+            font-size: 14px;
+        }
+
+        .list {
+            width: 100%;
+            background: white;
+            height: 200px;
+            border-radius: 5px;
+            margin-top: 1px;
+            overflow-x: hidden;
+            overflow-y: auto;
+            padding: 5px;
+            display: none;
+            flex-direction: column;
+            z-index: 2;
+            position:absolute;
+            top: 45px;
+        }
+
+        .list div {
+            padding: 5px 0;
+            cursor: pointer;
+            width: 100%;
+            font-size: 14px;
+        }
+
+        .list div:hover {
+            background-color: green;
+            color: #ffffaa;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>City Finder</h1>
+        <form>
+            <fieldset>
+                <div class="field">
+                    <label for="latitude">Latitude</label>
+                    <input id="latitude" type="number">
+                </div>
+                <div class="field">
+                    <label for="longitude">Longitude</label>
+                    <input id="longitude" type="number">
+                </div>
+            </fieldset>
+            <div class="field">
+                <label for="city">City</label>
+                <div>
+                    <input id="city">
+                    <div class="list"></div>
+                </div>
+            </div>
+        </form>
+    </main>
+    <script>
+        document.getElementById("city").addEventListener("keyup", async(event) => {
+            let city = event.target.value.trim();
+            if (!city.length) { return;}
+            let query = "/suggestions/?q="+city;
+            let latitude = document.getElementById("latitude").value.trim();
+            let longitude = document.getElementById("longitude").value.trim();
+            if (latitude.length && longitude.length) {
+                query += "&latitude="+latitude+"&longitude="+longitude;
+            }
+            const response = await fetch(query);
+            if (response.status !== 200) {
+                alert("Incorrect request");
+                return;
+            }
+            let cities = await response.json();
+            const list = document.querySelector(".list");
+            list.innerText = "";
+            if (!cities.length) {
+                list.style.display = 'none';
+                return;
+            }
+            cities.forEach(value => {
+                const div = document.createElement("div");
+                div.innerText = value.name;
+                div.addEventListener("click", (event) => {
+                    document.getElementById("city").value = event.target.innerText;
+                    document.querySelector(".list").style.display = "none";
+                });
+                list.appendChild(div);
+            });
+            list.style.display = "flex";
+        })
+        document.body.addEventListener("click", () => {
+            document.querySelector(".list").style.display = 'none';
+        })
+    </script>
+</body>
+</html>

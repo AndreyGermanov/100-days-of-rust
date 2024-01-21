@@ -1,7 +1,6 @@
 use std::sync::Mutex;
 use sqlite::{Connection, Statement};
 use rocket::{response::content, State};
-use rocket::http::Status;
 use serde_derive::Serialize;
 
 #[macro_use] extern crate rocket;
@@ -49,7 +48,7 @@ fn get_closest_cities(state: &AppState, name: String, loc: Option<(f64,f64)>, co
         WHERE UPPER(city) \
         LIKE '{}%'  AND population > 5000 \
         ORDER BY city \
-        LIMIT {}", name.to_uppercase(), count
+        LIMIT {}", name, count
     );
     let connection = state.database.lock().unwrap();
     let statement = connection.prepare(query).unwrap();
@@ -96,7 +95,6 @@ fn calc_distance(point1:(f64, f64),point2:(f64,f64)) -> f64 {
         point2_lat.cos() * (delta_lng / 2.0).sin().powi(2);
     let central_angle = 2.0 * central_angle_inner.sqrt().asin();
     return (earth_radius_kilometer * central_angle).abs();
-
 }
 
 fn deg_to_rad(degs: f64) -> f64 {

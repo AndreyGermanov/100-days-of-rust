@@ -195,8 +195,12 @@
             cities.forEach(value => {
                 const div = document.createElement("div");
                 div.innerText = value.name;
+                div.setAttribute("latitude", value.latitude);
+                div.setAttribute("longitude", value.longitude);
                 div.addEventListener("click", (event) => {
                     document.getElementById("city").value = event.target.innerText;
+                    document.getElementById("latitude").value = event.target.getAttribute("latitude");
+                    document.getElementById("longitude").value = event.target.getAttribute("longitude");
                     document.querySelector(".list").style.display = "none";
                 });
                 list.appendChild(div);

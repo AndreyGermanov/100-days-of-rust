@@ -40,11 +40,14 @@
             padding: 20px;
             border-radius: 5px;
         }
+
         h1 {
             color: #ffffaa;
             margin:0;
             padding: 0 0 15px;
+            white-space: nowrap;
         }
+
         form {
             text-align: left;
             display: flex;
@@ -123,6 +126,24 @@
         .list::-webkit-scrollbar {
             width: 0;
             height: 0;
+        }
+
+        @media (max-width: 450px) {
+            main {
+                width: 80%;
+            }
+
+            fieldset {
+                flex-direction: column;
+            }
+
+            h1 {
+                font-size: 18px;
+            }
+
+            input {
+                width: 100%;
+            }
         }
     </style>
 </head>

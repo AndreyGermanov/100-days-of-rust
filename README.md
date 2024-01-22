@@ -51,23 +51,23 @@ We encourage you to share your progress and ask questions in the Discussions sec
 | Day #2        | [Finding Nemo](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-01/Day-02_Finding-Nemo)                          | :white_check_mark:      |
 | Day #3        | [Barbecue Skewers](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-01/Day-03_Barbecue-Skewers)                      | :white_check_mark:      |
 | Day #4        | [Is Johnny Making Progress](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-01/Day-04_Is-Johnny-Making-Progress)             | :white_check_mark:      |
-| Day #5        | [Pair Of Socks](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-01/Day-05_Pair-Of-Socks)                         | :white_large_square:      |
-| Day #6        | [Next Prime](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-01/Day-06_Next-Prime)                            | :white_large_square:      |
-| Day #7        | [Merge Sorted Array](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-01/Day-07_Merge-Sorted-Array)                    | :white_large_square:      |
-| Day #8        | [Letter Combinations Of A Phone Number](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-02/Day-08_Letter-Combinations-Of-A-Phone-Number) | :white_large_square:      |
-| Day #9        | [Trapping Rain Water](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-02/Day-09_Trapping-Rain-Water)                   | :white_large_square:      |
-| Day #10       | [Unique Binary Search Tree](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-02/Day-10_Unique-Binary-Search-Trees)             | :white_large_square:      |
-| Day #11       | [Restore IP Addresses](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-02/Day-11_Restore-IP-Addresses)                  | :white_large_square:      |
-| Day #12       | [Mountains or Valleys](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-02/Day-12_Mountains_And_Valleys)                  | :white_large_square:      |
-| Day #13       | [Need Help With Your Packing](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-02/Day-13_Need-Help-With-Packing)           | :white_large_square:      |
-| Day #14       | [The Karacas Encryption Algorithm](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-02/Day-14_Karacas-Encryption-Algorithm)      | :white_large_square:      |
-| Day #15       | [Valid Anagram](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-03/Day-15_Valid-Anagram)                         | :white_large_square:      |
-| Day #16       | [Nim Game](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-03/Day-16_Nim-Game)                              | :white_large_square:      |
-| Day #17       | [Prison Break](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-03/Day-17_Prison-Break)                          | :white_large_square:      |
-| Day #18       | [Unique Paths](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-03/Day-18_Unique-Paths)                          | :white_large_square:      |
-| Day #19       | [URL Shortener](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-03/Day-19_URL-Shortener)                         | :white_large_square:      |
-| Day #20       | [API Challenge](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-03/Day-20_API-Challenge)                         | :white_large_square:      |
-| Day #21       | [Random Maze Generator](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-03/Day-21_Random-Maze-Generator)                 | :white_large_square:      |
+| Day #5        | [Pair Of Socks](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-01/Day-05_Pair-Of-Socks)                         | :white_check_mark:      |
+| Day #6        | [Next Prime](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-01/Day-06_Next-Prime)                            | :white_check_mark:      |
+| Day #7        | [Merge Sorted Array](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-01/Day-07_Merge-Sorted-Array)                    | :white_check_mark:      |
+| Day #8        | [Letter Combinations Of A Phone Number](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-02/Day-08_Letter-Combinations-Of-A-Phone-Number) | :white_check_mark:      |
+| Day #9        | [Trapping Rain Water](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-02/Day-09_Trapping-Rain-Water)                   | :white_check_mark:      |
+| Day #10       | [Unique Binary Search Tree](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-02/Day-10_Unique-Binary-Search-Trees)             | :white_check_mark:      |
+| Day #11       | [Restore IP Addresses](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-02/Day-11_Restore-IP-Addresses)                  | :white_check_mark:      |
+| Day #12       | [Mountains or Valleys](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-02/Day-12_Mountains_And_Valleys)                  | :white_check_mark:      |
+| Day #13       | [Need Help With Your Packing](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-02/Day-13_Need-Help-With-Packing)           | :white_check_mark:      |
+| Day #14       | [The Karacas Encryption Algorithm](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-02/Day-14_Karacas-Encryption-Algorithm)      | :white_check_mark:      |
+| Day #15       | [Valid Anagram](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-03/Day-15_Valid-Anagram)                         | :white_check_mark:      |
+| Day #16       | [Nim Game](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-03/Day-16_Nim-Game)                              | :white_check_mark:      |
+| Day #17       | [Prison Break](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-03/Day-17_Prison-Break)                          | :white_check_mark:      |
+| Day #18       | [Unique Paths](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-03/Day-18_Unique-Paths)                          | :white_check_mark:      |
+| Day #19       | [URL Shortener](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-03/Day-19_URL-Shortener)                         | :white_check_mark:      |
+| Day #20       | [API Challenge](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-03/Day-20_API-Challenge)                         | :white_check_mark:      |
+| Day #21       | [Random Maze Generator](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-03/Day-21_Random-Maze-Generator)                 | :white_check_mark:      |
 | Day #22       | [Marcio Mellos Challenge](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-04/Day-22_Marcio-Mellos-Challenge)               | :white_large_square:      |
 | Day #23       | [The Dining Philosophers](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-04/Day-23_The-Dining_Philosophers)               | :white_large_square:      |
 | Day #24       | [The Josephus Problem](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-04/Day-24_The-Josephus-Problem)                  | :white_large_square:      |

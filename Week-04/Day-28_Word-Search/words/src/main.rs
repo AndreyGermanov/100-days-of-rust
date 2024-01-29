@@ -22,9 +22,6 @@ pub fn match_words(board: &[&[char]], words: Vec<String>) -> Vec<String> {
     };
 
     let mut results = Vec::new();
-    if words.is_empty() {
-        return results;
-    }
 
     let mut board: Vec<Vec<u8>> = board.into_iter().map(|row| row.into_iter().map(|c| *c as u8).collect()).collect();
     'both: for x in 0..width {
@@ -46,7 +43,7 @@ fn solve(board: &mut [Vec<u8>], cell: (i8, i8), words: &mut Trie, word: &mut Str
         let letter = &mut board[cell.1 as usize][cell.0 as usize];
         let trie = match words.children.get_mut(letter) {
             Some(trie) => trie,
-            None => return,
+            None => return
         };
         (std::mem::take(letter), trie)
     };

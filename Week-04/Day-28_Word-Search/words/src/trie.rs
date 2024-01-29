@@ -25,8 +25,4 @@ impl Trie {
         current.is_end = true;
         return inserted;
     }
-
-    pub fn is_empty(&self) -> bool {
-        !self.is_end && self.children.is_empty()
-    }
 }

@@ -53,7 +53,6 @@ fn solve(board: &mut [Vec<u8>], cell: (i8, i8), words: &mut Trie, word: &mut Str
 
     word.push(letter as char);
     if trie.is_end {
-        // Remove this word from the trie
         trie.is_end = false;
         results.push(word.clone());
     }

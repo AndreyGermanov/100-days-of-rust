@@ -7,7 +7,6 @@ pub fn match_words(board: &[&[char]], words: Vec<String>) -> Vec<String> {
     let width = board[0].len();
     let height = board.len();
 
-    // Optimization: skip words that have letters not on our board.
     let letters: HashSet<_> = board.iter().flat_map(|row| row.iter().map(|c| *c as u8)).collect();
     let word_count = words.len();
     let mut words = {
@@ -15,7 +14,6 @@ pub fn match_words(board: &[&[char]], words: Vec<String>) -> Vec<String> {
         let mut trie = Trie::new();
         for w in words {
             if w.len() > max_len || !w.as_bytes().iter().all(|c| letters.contains(&c)) {
-                // println!("Skipping {w}");
                 continue;
             }
             trie.insert(w.as_bytes());

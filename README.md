@@ -72,11 +72,11 @@ We encourage you to share your progress and ask questions in the Discussions sec
 | Day #23       | [The Dining Philosophers](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-04/Day-23_The-Dining_Philosophers)               | :white_check_mark:      |
 | Day #24       | [The Josephus Problem](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-04/Day-24_The-Josephus-Problem)                  | :white_check_mark:      |
 | Day #25       | [Coin Trouble](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-04/Day-25_Coin-Trouble)                          | :white_check_mark:      |
-| Day #26       | [Briefcase Lock](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-04/Day-26_Briefcase-Lock)                        | :white_large_square:      |
-| Day #27       | [Task Scheduler](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-04/Day-27_Task-Scheduler)                        | :white_large_square:      |
-| Day #28       | [Word Search](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-04/Day-28_Word-Search)                           | :white_large_square:      |
-| Day #29       | [Traffic Light Checker](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-05/Day-29_Traffic-Light-Checker)                 | :white_large_square:      |
-| Day #30       | [The Maximum Value](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-05/Day-30_The-Maximum-Value)                     | :white_large_square:      |
+| Day #26       | [Briefcase Lock](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-04/Day-26_Briefcase-Lock)                        | :white_check_mark:      |
+| Day #27       | [Task Scheduler](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-04/Day-27_Task-Scheduler)                        | :white_check_mark:      |
+| Day #28       | [Word Search](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-04/Day-28_Word-Search)                           | :white_check_mark:      |
+| Day #29       | [Traffic Light Checker](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-05/Day-29_Traffic-Light-Checker)                 | :white_check_mark:      |
+| Day #30       | [The Maximum Value](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-05/Day-30_The-Maximum-Value)                     | :white_check_mark:      |
 | Day #31       | [The Time In Words](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-05/Day-31_The-Time-In-Words)                     | :white_large_square:      |
 | Day #32       | [Climbing The Leaderboard](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-05/Day-32_Climbing-The-Leaderboard)              | :white_large_square:      |
 | Day #33       | [WERTYU](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-05/Day-33_WERTYU)                                | :white_large_square:      |

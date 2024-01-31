@@ -33,6 +33,7 @@ fn test_get_biggest_number() {
     assert_eq!(get_biggest_number(-345,9),-3459);
     assert_eq!(get_biggest_number(-345,1),-1345);
     assert_eq!(get_biggest_number(457547567,5),5457547567);
+    assert_eq!(get_biggest_number(-457547567,5),-4557547567);
 }
 
 fn invert_number(number: i64) -> i64 {

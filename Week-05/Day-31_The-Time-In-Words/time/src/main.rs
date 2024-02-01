@@ -17,11 +17,11 @@ fn time_in_words<'a>(hour:u8, minute:u8) -> Result<String,&'a str> {
             )
         );
     }
-    return Ok(
+    Ok(
         format!("{} to {}",get_number_as_words(60-minute,TimeType::MINUTE),
            get_number_as_words(hour+1,TimeType::HOUR)
         )
-    );
+    )
 }
 #[test]
 fn test_time_in_words() {
@@ -36,9 +36,9 @@ fn test_time_in_words() {
 }
 
 fn get_number_as_words(number: u8, time_type:TimeType) -> String  {
-    if number == 0 { return "".to_string(); }
-    if number == 15 { return "quarter".to_string();};
-    if number == 30 { return "half".to_string(); }
+    if number == 0 { return "".to_string() }
+    if number == 15 { return "quarter".to_string() };
+    if number == 30 { return "half".to_string() }
     let numbers:HashMap<u8,&str> =HashMap::from([
         (1, "one"), (2, "two"), (3, "three"), (4, "four"), (5, "five"), (6, "six"), (7, "seven"),
         (8, "eight"), (9, "nine"), (10, "ten"), (11, "eleven"), (12, "twelve"), (13, "thirteen"),
@@ -51,9 +51,9 @@ fn get_number_as_words(number: u8, time_type:TimeType) -> String  {
     if number < 21 { return format!("{} minutes",numbers[&number]) }
     let tens = (number / 10) * 10;
     let ones = number - tens;
-    if ones == 0 {  return format!("{} minutes",numbers[&tens])}
+    if ones == 0 {  return format!("{} minutes",numbers[&tens]) }
     if ones == 1 { return format!("{} {} minute", numbers[&tens], numbers[&ones]) }
-    return format!("{} {} minutes", numbers[&tens], numbers[&ones]);
+    format!("{} {} minutes", numbers[&tens], numbers[&ones]);
 }
 
 #[test]

@@ -7,7 +7,6 @@ fn time_in_words<'a>(hour:u8, minute:u8) -> Result<String,&'a str> {
     if hour == 0 || hour > 12 { return Err("Incorrect hour specification") };
     if minute > 59 { return Err("Incorrect minute specification") };
     if minute == 0 {
-        if hour == 0 { return Ok("midnight".to_string()); }
         return Ok(format!("{} o' clock",get_number_as_words(hour, TimeType::HOUR)));
     }
     if minute <= 30 {

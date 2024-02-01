@@ -27,6 +27,7 @@ fn time_in_words<'a>(hour:u8, minute:u8) -> Result<String,&'a str> {
 fn test_time_in_words() {
     assert_eq!(time_in_words(3, 00).unwrap(), "three o' clock");
     assert_eq!(time_in_words(5, 01).unwrap(), "one minute past five");
+    assert_eq!(time_in_words(5, 10).unwrap(), "ten minutes past five");
     assert_eq!(time_in_words(7, 15).unwrap(), "quarter past seven");
     assert_eq!(time_in_words(5, 28).unwrap(), "twenty eight minutes past five");
     assert_eq!(time_in_words(5, 47).unwrap(), "thirteen minutes to six");

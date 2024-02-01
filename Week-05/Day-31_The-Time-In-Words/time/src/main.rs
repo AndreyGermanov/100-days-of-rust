@@ -28,6 +28,7 @@ fn test_time_in_words() {
     assert_eq!(time_in_words(3, 00).unwrap(), "three o' clock");
     assert_eq!(time_in_words(5, 01).unwrap(), "one minute past five");
     assert_eq!(time_in_words(7, 15).unwrap(), "quarter past seven");
+    assert_eq!(time_in_words(5, 28).unwrap(), "twenty eight minutes past five");
     assert_eq!(time_in_words(5, 47).unwrap(), "thirteen minutes to six");
     assert_eq!(time_in_words(5, 30).unwrap(), "half past five");
     assert_eq!(time_in_words(8, 45).unwrap(), "quarter to nine");
@@ -53,7 +54,7 @@ fn get_number_as_words(number: u8, time_type:TimeType) -> String  {
     let ones = number - tens;
     if ones == 0 {  return format!("{} minutes",numbers[&tens]) }
     if ones == 1 { return format!("{} {} minute", numbers[&tens], numbers[&ones]) }
-    format!("{} {} minutes", numbers[&tens], numbers[&ones]);
+    format!("{} {} minutes", numbers[&tens], numbers[&ones])
 }
 
 #[test]

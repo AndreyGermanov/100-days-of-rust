@@ -4,7 +4,7 @@ fn keyboard_mistake_fix(input: &str) -> String {
         match querty.iter().position(|res_ch| *res_ch == ch) {
             None => ch,
             Some(pos) if pos>=1 && pos<querty.len() => *querty.iter().nth(pos-1).unwrap(),
-            Some(_) => ch
+            _ => ch
         }
     }).collect()
 }

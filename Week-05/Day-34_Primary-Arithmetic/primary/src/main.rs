@@ -1,13 +1,13 @@
 fn carry_operations(mut num1: u32, mut num2: u32) -> u32 {
     let mut result = 0;
-    loop {
+    return loop {
         let num2_digit = num2 % 10;
         num2 = (num2 - num2_digit) / 10;
         let num1_digit = num1 % 10 + num2_digit;
         num1 = (num1 + num1_digit) / 10;
         if (num1_digit) > 9 { result += 1; }
         if num2 <= 0 { break result; }
-    }
+    };
 }
 
 #[test]

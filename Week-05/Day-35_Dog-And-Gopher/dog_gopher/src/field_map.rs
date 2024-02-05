@@ -60,7 +60,6 @@ impl EscapeResult for FieldMap {
     }
 }
 
-
 pub fn read_fields_file(mut file: File) -> Result<Vec<Box<dyn EscapeResult>>, io::Error> {
     let mut result:Vec<Box<dyn EscapeResult>> = vec![];
     let mut text = String::new();

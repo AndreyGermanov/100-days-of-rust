@@ -15,11 +15,7 @@ impl LCD {
         number.rows().into_iter().for_each(|row| {
             row.iter().enumerate().for_each(|(index, col)| {
                 if index == 0 { return }
-                result += match col {
-                    1 => "-",
-                    2 => "|",
-                    _ => " "
-                }
+                result += match col { 1 => "-", 2 => "|", _ => " " }
             });
             result += "\n";
         });

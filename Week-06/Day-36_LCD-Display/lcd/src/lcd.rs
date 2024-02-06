@@ -37,7 +37,7 @@ impl LCD {
 
     fn build_digit(&self, n:usize, s:usize) -> Array2<u32> {
         let mut arr = vec![];
-        for (row_index, row) in NUMBERS[n].iter().enumerate() {
+        for (row_index, row) in DIGITS[n].iter().enumerate() {
             let mut res_row = vec![];
             for (col_index, col) in row.iter().enumerate() {
                 if col_index == 1 && n != 1 {
@@ -63,7 +63,7 @@ impl LCD {
     }
 }
 
-const NUMBERS: &[&[&[u32]]] = &[
+const DIGITS: &[&[&[u32]]] = &[
     &[
         &[0, 1, 0],
         &[2, 0, 2],

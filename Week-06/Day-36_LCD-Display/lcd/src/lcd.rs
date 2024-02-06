@@ -40,7 +40,7 @@ impl LCD {
         for (row_index, row) in DIGITS[n].iter().enumerate() {
             let mut res_row = vec![];
             for (col_index, col) in row.iter().enumerate() {
-                if col_index == 1 && n != 1 {
+                if col_index == 1 {
                     (0..s).for_each(|_| { res_row.push(*col); })
                 } else {
                     res_row.push(*col)
@@ -53,7 +53,6 @@ impl LCD {
             }
         }
         let mut result = Array2::zeros((2 * s + 3, s + 2)).to_owned();
-        if n == 1 { result = Array2::zeros((2 * s + 3, 1)).to_owned(); }
         for (row_idx, row) in arr.iter().enumerate() {
             for (col_idx, col) in row.iter().enumerate() {
                 result[(row_idx, col_idx)] = *col;
@@ -72,11 +71,11 @@ const DIGITS: &[&[&[u32]]] = &[
         &[0, 1, 0]
     ],
     &[
-        &[0],
-        &[2],
-        &[0],
-        &[2],
-        &[0]
+        &[0,0,0],
+        &[0,0,2],
+        &[0,0,0],
+        &[0,0,2],
+        &[0,0,0]
     ],
     &[
         &[0, 1, 0],

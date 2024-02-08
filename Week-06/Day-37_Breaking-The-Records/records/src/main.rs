@@ -2,14 +2,8 @@ fn breaking_records(scores: &[u8]) -> (u8,u8) {
     if scores.is_empty() { return (0,0); }
     let (mut min, mut max) = (scores[0], scores[0]);
     scores.iter().skip(1).fold((0, 0), |mut accum, value| {
-        if *value < min {
-            accum.1 += 1;
-            min = *value;
-        }
-        if *value > max {
-            accum.0 += 1;
-            max = *value
-        }
+        if *value < min { accum.1 += 1; min = *value }
+        if *value > max { accum.0 += 1; max = *value }
         accum
     })
 }

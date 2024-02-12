@@ -84,11 +84,11 @@ We encourage you to share your progress and ask questions in the Discussions sec
 | Day #35       | [Dog And Gopher](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-05/Day-35_Dog-And-Gopher)                        | :white_check_mark:      |
 | Day #36       | [LCD Display](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-06/Day-36_LCD-Display)                           | :white_check_mark:      |
 | Day #37       | [Breaking The Records](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-06/Day-37_Breaking-The-Records)                  | :white_check_mark:      |
-| Day #38       | [Electronics Shop](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-06/Day-38_Electronics-Shop)                      | :white_large_square:      |
-| Day #39       | [Halloween Sale](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-06/Day-39_Halloween-Sale)                        | :white_large_square:      |
-| Day #40       | [Larrys Array](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-06/Day-40_Larrys-Array)                          | :white_large_square:      |
-| Day #41       | [Sales By Match](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-06/Day-41_Sales-By-Match)                        | :white_large_square:      |
-| Day #42       | [Drawing Book](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-06/Day-42_Drawing-Book)                          | :white_large_square:      |
+| Day #38       | [Electronics Shop](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-06/Day-38_Electronics-Shop)                      | :white_check_mark:      |
+| Day #39       | [Halloween Sale](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-06/Day-39_Halloween-Sale)                        | :white_check_mark:      |
+| Day #40       | [Larrys Array](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-06/Day-40_Larrys-Array)                          | :white_check_mark:      |
+| Day #41       | [Sales By Match](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-06/Day-41_Sales-By-Match)                        | :white_check_mark:      |
+| Day #42       | [Drawing Book](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-06/Day-42_Drawing-Book)                          | :white_check_mark:      |
 | Day #43       | [Area Of A Triangle](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-07/Day-43_Area-Of-A-Triangle)                    | :white_large_square:      |
 | Day #44       | [Maximum Edge Of A Triangle](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-07/Day-44_Maximum-Edge-Of-A-Triangle)            | :white_large_square:      |
 | Day #45       | [Subtract The Swapped Bits...](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-07/Day-45_Subtract-The-Swapped-Bits-Without-Temp-Storage)          | :white_large_square:      |

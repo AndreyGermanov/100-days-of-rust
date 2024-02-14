@@ -1,5 +1,5 @@
 fn min_pages(n:u32, p:u32) -> u32 {
-    return (p / 2).min(if p == n - 1 && n % 2 == 0 { 1 } else { (n - p) / 2})
+    (p / 2).min(if p == n - 1 && n % 2 == 0 { 1 } else { (n - p) / 2})
 }
 
 #[test]

@@ -20,3 +20,5 @@ fn test_get_num_pairs() {
     assert_eq!(get_num_pairs(&[3, 2, 3, 2, 3, 2, 3, 2, 3, 2, 3]), 5);
 }
 
+
+

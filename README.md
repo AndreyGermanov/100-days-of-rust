@@ -91,9 +91,9 @@ We encourage you to share your progress and ask questions in the Discussions sec
 | Day #42       | [Drawing Book](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-06/Day-42_Drawing-Book)                          | :white_check_mark:      |
 | Day #43       | [Area Of A Triangle](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-07/Day-43_Area-Of-A-Triangle)                    | :white_check_mark:      |
 | Day #44       | [Maximum Edge Of A Triangle](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-07/Day-44_Maximum-Edge-Of-A-Triangle)            | :white_check_mark:      |
-| Day #45       | [Subtract The Swapped Bits...](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-07/Day-45_Subtract-The-Swapped-Bits-Without-Temp-Storage)          | :white_large_square:      |
-| Day #46       | [Hot Pics Of Danny Devito](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-07/Day-46_Hot-Pics-Of-Danny-Devito)              | :white_large_square:      |
-| Day #47       | [Zip It](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-07/Day-47_Zip-It)                                | :white_large_square:      |
+| Day #45       | [Subtract The Swapped Bits...](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-07/Day-45_Subtract-The-Swapped-Bits-Without-Temp-Storage)          | :white_check_mark:      |
+| Day #46       | [Hot Pics Of Danny Devito](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-07/Day-46_Hot-Pics-Of-Danny-Devito)              | :white_check_mark:      |
+| Day #47       | [Zip It](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-07/Day-47_Zip-It)                                | :white_check_mark:      |
 | Day #48       | [Christmas Tree](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-07/Day-48_Christmas-Tree)                        | :white_large_square:      |
 | Day #49       | [Swimming Pool](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-07/Day-49_Swimming-Pool)                         | :white_large_square:      |
 | Day #50       | [Tic Tac Toe](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-08/Day-50_Tic-Tac-Toe)                           | :white_large_square:      |

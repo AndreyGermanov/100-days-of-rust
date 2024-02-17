@@ -10,7 +10,7 @@ fn prevent_distractions(input: &str) -> &str {
 
 #[test]
 fn test_prevent_distractions() {
-    assert_eq!(prevent_distractions("vines that butter my eggroll"), "NO!");
+    assert_eq!(prevent_distractions("vines that butter my egg roll"), "NO!");
     assert_eq!(prevent_distractions("Hot pictures of Danny DeVito"),"NO!");
     assert_eq!(prevent_distractions("How to ace BC Calculus in 5 Easy Steps"), "Safe watching!");
 }

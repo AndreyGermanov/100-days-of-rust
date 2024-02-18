@@ -18,5 +18,5 @@ fn test_tree() {
                                   " ####### ",
                                   "#########"
     ]);
-    assert_eq!(tree(0), vec![] as Vec<&str>);
+    assert_eq!(tree(0), vec![] as Vec<String>);
 }

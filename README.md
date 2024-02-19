@@ -94,8 +94,8 @@ We encourage you to share your progress and ask questions in the Discussions sec
 | Day #45       | [Subtract The Swapped Bits...](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-07/Day-45_Subtract-The-Swapped-Bits-Without-Temp-Storage)          | :white_check_mark:      |
 | Day #46       | [Hot Pics Of Danny Devito](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-07/Day-46_Hot-Pics-Of-Danny-Devito)              | :white_check_mark:      |
 | Day #47       | [Zip It](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-07/Day-47_Zip-It)                                | :white_check_mark:      |
-| Day #48       | [Christmas Tree](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-07/Day-48_Christmas-Tree)                        | :white_large_square:      |
-| Day #49       | [Swimming Pool](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-07/Day-49_Swimming-Pool)                         | :white_large_square:      |
+| Day #48       | [Christmas Tree](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-07/Day-48_Christmas-Tree)                        | :white_check_mark:      |
+| Day #49       | [Swimming Pool](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-07/Day-49_Swimming-Pool)                         | :white_check_mark:      |
 | Day #50       | [Tic Tac Toe](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-08/Day-50_Tic-Tac-Toe)                           | :white_large_square:      |
 | Day #51       | [Asteroid Collision](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-08/Day-51_Asteroid-Collision)                    | :white_large_square:      |
 | Day #52       | [Switch On The Gravity](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-08/Day-52_Switch-On-The-Gravity)                 | :white_large_square:      |

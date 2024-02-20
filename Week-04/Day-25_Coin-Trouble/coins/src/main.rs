@@ -43,5 +43,4 @@ fn test_can_distribute() {
     assert_eq!(can_distribute(&mut vec![10]), false);
     assert_eq!(can_distribute(&mut vec![10,5]), false);
     assert_eq!(can_distribute(&mut vec![]), false);
-
 }

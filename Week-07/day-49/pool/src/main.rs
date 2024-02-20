@@ -1,4 +1,5 @@
 use ndarray::{Array2, arr2};
+
 fn is_legitimate(pool: Array2<u8>) -> bool {
     pool.row(0).to_vec().iter().sum::<u8>()+
     pool.row(pool.shape()[0]-1).iter().sum::<u8>()+

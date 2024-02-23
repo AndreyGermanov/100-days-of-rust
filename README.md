@@ -99,7 +99,7 @@ We encourage you to share your progress and ask questions in the Discussions sec
 | Day #50       | [Tic Tac Toe](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-08/Day-50_Tic-Tac-Toe)                           | :white_check_mark:      |
 | Day #51       | [Asteroid Collision](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-08/Day-51_Asteroid-Collision)                    | :white_check_mark:      |
 | Day #52       | [Switch On The Gravity](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-08/Day-52_Switch-On-The-Gravity)                 | :white_check_mark:      |
-| Day #53       | [Javelin Parabolic Throw](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-08/Day-53_Javelin-Parabolic-Throw)               | :white_large_square:      |
+| Day #53       | [Javelin Parabolic Throw](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-08/Day-53_Javelin-Parabolic-Throw)               | :white_check_mark:      |
 | Day #54       | [RGB To Hex Color Convertor](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-08/Day-54_RGB-To-Hex-Color-Converter)            | :white_large_square:      |
 | Day #55       | [Filter Repeating Character Strings](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-08/Day-55_Filter_Repeating-Character-Strings)    | :white_large_square:      |
 | Day #56       | [Convert To Hex](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-08/Day-56_Convert-To-Hex)                        | :white_large_square:      |

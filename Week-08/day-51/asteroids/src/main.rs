@@ -27,3 +27,24 @@ fn test_collide() {
     assert_eq!(collide(&mut vec![]), &[]);
     assert_eq!(collide(&mut vec![1]), &[1]);
 }
+
+fn longest_substring(s: String) -> i32 {
+    let mut cur_str = "".to_string();
+    s.chars().fold(0,|result, ch| {
+        if let Some(pos) = cur_str.chars().position(|chr| ch == chr ) {
+            cur_str = cur_str.chars().skip(pos + 1).collect();
+        }
+        cur_str += ch.to_string().as_str();
+        result.max(cur_str.len() as i32)
+    })
+}
+
+#[test]
+fn test_longest_substring() {
+    assert_eq!(longest_substring("abcabcbb".to_string()) ,3);
+    assert_eq!(longest_substring("bbbbb".to_string()) ,1);
+    assert_eq!(longest_substring("pwwkew".to_string()) ,3);
+    assert_eq!(longest_substring("".to_string()) ,0);
+    assert_eq!(longest_substring(" ".to_string()) ,1);
+    assert_eq!(longest_substring("aabaab!bb".to_string()),3)
+}

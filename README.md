@@ -103,7 +103,7 @@ We encourage you to share your progress and ask questions in the Discussions sec
 | Day #54       | [RGB To Hex Color Convertor](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-08/Day-54_RGB-To-Hex-Color-Converter)            | :white_check_mark:      |
 | Day #55       | [Filter Repeating Character Strings](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-08/Day-55_Filter_Repeating-Character-Strings)    | :white_check_mark:      |
 | Day #56       | [Convert To Hex](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-08/Day-56_Convert-To-Hex)                        | :white_check_mark:      |
-| Day #57       | [Magic Sigil Generator](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-09/Day-57_Magic-Sigil-Generator)                 | :white_large_square:      |
+| Day #57       | [Magic Sigil Generator](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-09/Day-57_Magic-Sigil-Generator)                 | :white_check_mark:      |
 | Day #58       | [Create A Dice Roller](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-09/Day-58_Create-A-Dice-Roller)                  | :white_large_square:      |
 | Day #59       | [Perfectly Balanced](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-09/Day-59_Perfectly-Balanced)                    | :white_large_square:      |
 | Day #60       | [A Game Of Threes](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-09/Day-60_A-Game-Of-Thrones)                      | :white_large_square:      |

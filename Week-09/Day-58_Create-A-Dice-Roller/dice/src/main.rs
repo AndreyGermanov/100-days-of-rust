@@ -41,8 +41,9 @@ fn get_dice(input: &str) -> String {
         .filter(|item| *item > 0)
         .collect();
     if nums.len() != 2 { return "".to_string()};
-    let result = (0..nums[0])
-        .map(|_| rand::thread_rng().gen_range(1..nums[1]+1))
+    let (dices, sides) = (nums[0],nums[1]);
+    let result = (0..dices)
+        .map(|_| rand::thread_rng().gen_range(1..sides+1))
         .fold((0,vec![]),|mut accum,item| {
             accum.0 += item;
             accum.1.push(item.to_string());

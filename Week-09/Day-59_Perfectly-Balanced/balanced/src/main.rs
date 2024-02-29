@@ -5,7 +5,7 @@ fn balanced_bonus(input: &str) -> bool {
         *result.entry(ch).or_insert(0) += 1;
         result
     }).iter().fold((true, 0),|(result,prev_count), (_,value)| {
-        (prev_count == 0 || *value == prev_count, *value)
+        (prev_count == 0 || result && *value == prev_count, *value)
     }).0
 }
 
@@ -23,3 +23,5 @@ fn test_balanced_bonus() {
     assert_eq!(balanced_bonus("x"),true);
     assert_eq!(balanced_bonus(""),true);
 }
+
+

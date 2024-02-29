@@ -4,9 +4,9 @@ fn balanced_bonus(input: &str) -> bool {
     input.chars().fold(HashMap::new(),|mut result, ch| {
         *result.entry(ch).or_insert(0) += 1;
         result
-    }).iter().fold((0,true),|(prev_count,_result), (_,value)| {
-        (*value, prev_count == 0 || *value == prev_count)
-    }).1
+    }).iter().fold((true, 0),|(result,prev_count), (_,value)| {
+        (prev_count == 0 || *value == prev_count, *value)
+    }).0
 }
 
 #[test]

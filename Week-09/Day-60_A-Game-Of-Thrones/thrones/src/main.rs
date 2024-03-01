@@ -6,9 +6,7 @@ fn main() {
     for line in io::stdin().lock().lines() {
         match line {
             Ok(line) if u32::from_str(line.as_str()).is_ok() => {
-                let mut num = u32::from_str(line.as_str()).unwrap();
-                if num < 3 { continue }
-                play(num);
+                play(u32::from_str(line.as_str()).unwrap());
                 break;
             },
             _ => continue
@@ -24,3 +22,4 @@ fn play(mut num: u32) {
     }
     println!("{}", num);
 }
+

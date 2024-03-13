@@ -1,3 +1,4 @@
+/*
 fn get_biggest_number(number: i64, digit: u64) -> i64 {
     if number == 0 { return digit as i64 * 10 };
     let zeros = get_trailing_zeros_count(number);
@@ -35,8 +36,9 @@ fn test_get_biggest_number() {
     assert_eq!(get_biggest_number(457547567,5),5457547567);
     assert_eq!(get_biggest_number(-457547567,5),-4557547567);
 }
+*/
 
-fn invert_number(number: i64) -> i64 {
+fn invert_number(number: i32) -> i32 {
     let mut mult = 1;
     if number < 0 { mult = -1; }
     let mut number = number * mult;
@@ -53,6 +55,7 @@ fn test_invert_number() {
     assert_eq!(invert_number(123), 321);
     assert_eq!(invert_number(-123), -321);
     assert_eq!(invert_number(453234), 432354);
+    assert_eq!(invert_number(1534236469), 0);
 }
 
 fn get_trailing_zeros_count(number: i64) -> u32 {

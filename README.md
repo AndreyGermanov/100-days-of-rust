@@ -109,16 +109,16 @@ We encourage you to share your progress and ask questions in the Discussions sec
 | Day #60       | [A Game Of Threes](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-09/Day-60_A-Game-Of-Thrones)                      | :white_check_mark:      |
 | Day #61       | [Write A Web Crawler](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-09/Day-61_Write-A-Web-Crawler)                   | :white_check_mark:      |
 | Day #62       | [Funny Plant](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-09/Day-62_Funny-Plant)                           | :white_check_mark:      |
-| Day #63       | [The Rabbit Problem](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-09/Day-63_The-Rabbit-Problem)                    | :white_large_square:      |
-| Day #64       | [First Recurring Character](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-10/Day-64_First-Recurring-Character)             | :white_large_square:      |
-| Day #65       | [ISBN Validator](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-10/Day-65_ISBN-Validator)                        | :white_large_square:      |
-| Day #66       | [ISBN Generator](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-10/Day-66_ISBN-Generator)                        | :white_large_square:      |
-| Day #67       | [Color Maze](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-10/Day-67_Color-Maze)                            | :white_large_square:      |
-| Day #68       | [Clarence The Slow Typist](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-10/Day-68_Clarence-The-Slow-Typist)              | :white_large_square:      |
-| Day #69       | [Garage Door Opener](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-10/Day-69-Garage-Door-Opener)                    | :white_large_square:      |
-| Day #70       | [Broken Keyboard](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-10/Day-70_Broken-Keyboard)                       | :white_large_square:      |
-| Day #71       | [How Long Has The Light Been On](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-11/Day-71_How-Long-Has-The-Light-Been-On)        | :white_large_square:      |
-| Day #72       | [L33tSpeak Convertor](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-11/Day-72_L33tSpeak-Convertor)                   | :white_large_square:      |
+| Day #63       | [The Rabbit Problem](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-09/Day-63_The-Rabbit-Problem)                    | :white_check_mark:      |
+| Day #64       | [First Recurring Character](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-10/Day-64_First-Recurring-Character)             | :white_check_mark:      |
+| Day #65       | [ISBN Validator](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-10/Day-65_ISBN-Validator)                        | :white_check_mark:      |
+| Day #66       | [ISBN Generator](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-10/Day-66_ISBN-Generator)                        | :white_check_mark:      |
+| Day #67       | [Color Maze](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-10/Day-67_Color-Maze)                            | :white_check_mark:      |
+| Day #68       | [Clarence The Slow Typist](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-10/Day-68_Clarence-The-Slow-Typist)              | :white_check_mark:      |
+| Day #69       | [Garage Door Opener](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-10/Day-69-Garage-Door-Opener)                    | :white_check_mark:      |
+| Day #70       | [Broken Keyboard](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-10/Day-70_Broken-Keyboard)                       | :white_check_mark:      |
+| Day #71       | [How Long Has The Light Been On](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-11/Day-71_How-Long-Has-The-Light-Been-On)        | :white_check_mark:      |
+| Day #72       | [L33tSpeak Convertor](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-11/Day-72_L33tSpeak-Convertor)                   | :white_check_mark:      |
 | Day #73       | [L33tSpeak Translator](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-11/Day-73_L337Speak-Generator)                  | :white_large_square:      |
 | Day #74       | [CATTLEMETER](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-11/Day-74_CATTLEMETER)                           | :white_large_square:      |
 | Day #75       | [Minesweeper](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-11/Day-75_Minesweeper)                           | :white_large_square:      |

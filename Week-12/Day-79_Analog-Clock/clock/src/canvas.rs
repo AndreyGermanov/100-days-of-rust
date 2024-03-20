@@ -52,7 +52,7 @@ impl Canvas {
                 }
             } else {
                 for y in y1..y0+1 {
-                    let x = if dy == 0 { x0 } else { x0 + f32::round((y as f32 - y1 as f32)* dx as f32 / dy as f32) as isize};
+                    let x = if dy == 0 { x0 } else { x1 + f32::round((y as f32 - y1 as f32)* dx as f32 / dy as f32) as isize};
                     if self.check_coord_in_range(x, y) {
                         self.canvas[y as usize][x as usize] = fill_char
                     }

@@ -64,7 +64,7 @@ impl Canvas {
     pub fn add_text(&mut self, x: isize, y:isize, text: &str) {
         text.chars().enumerate().for_each(|(index, ch)| {
             if self.check_coord_in_range(x + index as isize, y) {
-                self.canvas[y as usize][(x as usize)+1] = ch
+                self.canvas[y as usize][(x as usize)+index] = ch
             }
         })
     }

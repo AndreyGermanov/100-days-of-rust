@@ -14,3 +14,4 @@ fn main() {
     let img = scale_svg(300);
     img.save(&Path::new("google.png")).unwrap();
 }
+

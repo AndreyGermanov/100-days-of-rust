@@ -75,9 +75,11 @@ fn handle_connection(mut stream: TcpStream) {
             true
         },
         Err(_) => {
-            println!("An error occurred, terminating connection with {}", stream.peer_addr().unwrap());
+            println!("An error occurred, terminating connection with {}",
+                     stream.peer_addr().unwrap());
             stream.shutdown(Shutdown::Both).unwrap();
             false
         }
     } {}
 }
+

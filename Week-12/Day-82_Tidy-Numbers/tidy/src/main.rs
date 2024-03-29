@@ -1,7 +1,9 @@
 use std::iter;
+
 fn last_number(num: usize) -> usize {
     if num < 10 { return num }
-    let mut digits:Vec<_> = format!("{}",num).chars().map(|item| item.to_digit(10).unwrap()).collect();
+    let mut digits:Vec<_> = format!("{}",num).chars()
+        .map(|item| item.to_digit(10).unwrap()).collect();
     let mut index = digits.len()-2;
     while index >= 0 {
         if digits[index] > digits[index+1] {
@@ -28,3 +30,5 @@ fn test_last_number() {
     assert_eq!(last_number(7),7);
     assert_eq!(last_number(111111111111111110), 99999999999999999);
 }
+
+

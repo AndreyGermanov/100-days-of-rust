@@ -139,11 +139,11 @@ We encourage you to share your progress and ask questions in the Discussions sec
 | Day #90       | [Radio Station](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-13/Day-90_Radio-Station)                         | :white_check_mark:      |
 | Day #91       | [Cyberpunk 2078](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-13/Day-91_Cyberpunk-2078)                        | :white_check_mark:      |
 | Day #92       | [New Year Candles](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-14/Day-92_New-Years-Candles)                      | :white_check_mark:      |
-| Day #93       | [Dreamoon And Stairs](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-14/Day-93_Dreamoon-And-Stairs)                   | :white_large_square:      |
-| Day #94       | [Superhero Transformation](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-14/Day-94_Superhero-Transformation)              | :white_large_square:      |
-| Day #95       | [Free Cash](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-14/Day-95_Free-Crash)                             | :white_large_square:      |
-| Day #96       | [Beautiful Paintings](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-14/Day-96_Beautiful-Paintings)                   | :white_large_square:      |
-| Day #97       | [Elephant](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-14/Day-97_Elephant)                              | :white_large_square:      |
-| Day #98       | [Geography Of Brazil](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-14/Day-98_Geography-Of-Brazil)                   | :white_large_square:      |
-| Day #99       | [How Is The Weather](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-15/Day-99_How-Is-The-Weather)                    | :white_large_square:      |
-| Day #100      | [Final Hello World](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-15/Day-100_Final-Hello-World)                     | :white_large_square:      |
+| Day #93       | [Dreamoon And Stairs](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-14/Day-93_Dreamoon-And-Stairs)                   | :white_check_mark:      |
+| Day #94       | [Superhero Transformation](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-14/Day-94_Superhero-Transformation)              | :white_check_mark:      |
+| Day #95       | [Free Cash](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-14/Day-95_Free-Crash)                             | :white_check_mark:      |
+| Day #96       | [Beautiful Paintings](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-14/Day-96_Beautiful-Paintings)                   | :white_check_mark:      |
+| Day #97       | [Elephant](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-14/Day-97_Elephant)                              | :white_check_mark:      |
+| Day #98       | [Geography Of Brazil](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-14/Day-98_Geography-Of-Brazil)                   | :white_check_mark:      |
+| Day #99       | [How Is The Weather](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-15/Day-99_How-Is-The-Weather)                    | :white_check_mark:      |
+| Day #100      | [Final Hello World](https://github.com/LiveGray/100-Days-Of-Rust/tree/main/Week-15/Day-100_Final-Hello-World)                     | :white_check_mark:      |
